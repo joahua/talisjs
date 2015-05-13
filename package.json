@@ -1,0 +1,39 @@
+{
+  "name": "talisjs",
+  "description": "",
+  "version": "0.1.0",
+  "homepage": "https://github.com/joahua/talisjs",
+  "author": {
+    "name": "Josh Street",
+    "email": "josh@josh.st"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joahua/talisjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joahua/talisjs/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "lib/talisjs",
+  "engines": {
+      "node": ">=0.10.26",
+      "npm": ">=1.4.3"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "gulp": "~3.8.6",
+    "gulp-mocha": "~0.5"
+
+  },
+  "keywords": []
+}
